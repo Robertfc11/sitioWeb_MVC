@@ -2,11 +2,8 @@
 --    Práctica Final Integradora 
 --   "Prestamo de Items Académicos"
 --    Materia: Desarrollo Avanzado de Sistemas
---    Profesor: Luis Alejandro Santana Valadez
 --    
---    -- Nancy Hernández Sánchez         18200765
---    -- Frida Sarahi Meneses Rivera     18200772
---    -- Jesus Eduardo Rodarte Escamilla 18200202
+--    -- Roberto Carlos Flores Cruz      18200993
 -- ******************************************************
 
 CREATE DATABASE PRACTICA_INT;
