@@ -1,0 +1,269 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clearfix{
+    clear: both;
+}
+body{
+    background-color: #FFFFFF;
+    margin: 0px auto;
+}
+
+/*Estilos de la barra de navegación*/
+nav{
+    display: block;
+    width: 100%;
+    height: 93px;
+    background-color: #223843;
+    display: flexbox;
+    justify-content: space-between;
+}
+#menu li{
+    float: left;
+    width: 12%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+#menu li a{
+    color: white;
+    font-size: 17px;
+}
+#menu li:hover{
+    background-color: rgba(0, 0, 0, 0.829);
+    opacity: 0.5;
+    transition: all 500ms;
+    border: 1px solid #2A9D8F;
+}
+#menu li a:hover{
+    color: #35beae;
+    font-size: 20px;
+    transition: all 500ms;
+}
+
+/*Estilos del body*/
+.container{
+    display: block;
+    margin: 0px auto;
+    width: 85%;
+    height: auto;
+    background-color: #2469a0;
+    padding: 10px;
+}
+#logos{
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    text-align: center;
+}
+#logos li #logo-body{
+    float: left;
+    width: 20%;
+    height: 150px;
+}
+#logos li #logo-ITP{
+    float: right;
+    width: 20%;
+    height: 150px;
+}
+.title{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.781);
+}
+
+.description{
+    font-size: 25px;
+    color: white;
+    background-color: #FFFFFF;
+    width: 70%;
+    padding: 10px;
+    margin: 0px auto;
+    text-align: justify;
+    box-shadow: 5px 5px 10px 0px rgb(0, 0, 0, 0.3);
+}
+#img-body{
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 250px;
+    box-shadow: 5px 5px 10px 0px rgb(0, 0, 0, 0.3);
+}
+/*Estilos del formulario*/
+.formInput{
+    width: 60%;
+    margin: 0px auto;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #a2dcee;
+    box-shadow: 5px 5px 10px 0px rgb(0, 0, 0, 0.3);
+    text-align: center;
+}
+.formInput label{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+.formInput input[type='text'],
+.formInput input[type='datetime-local']{
+    display: block;
+    padding: 3px;
+    width: 30%;
+    margin-top: 7px;
+    margin: 0px auto;
+}
+.formInput input[type='text']:focus,
+.formInput input[type='password']:focus{
+    padding: 5px;
+    width: 32%;
+}
+.formInput input[type='submit'],
+.formInput input[type='button']{
+    padding: 8px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 15%;
+}
+.formInput input[type='submit']{
+    background-color: #2A9D8F;
+    color: white;
+    margin-right: 15px;
+}
+.formInput input[type='button']{
+    background-color: rgb(185, 27, 27);
+    color: white;
+}
+.formInput input[type='submit']:hover{
+    color: black;
+    transition: all 500ms;
+}
+.formInput input[type='button']:hover{
+    color: black;
+    transition: all 500ms;
+}
+.list-items{
+    width: 85%;
+    margin: 0px auto;
+}
+.disponible{
+    background-color: green !important;
+}
+.prestado{
+    background-color: red !important;
+}
+.tablaRpt{
+    margin: 0px auto;
+}
+.cabecera-tabla{
+    padding: 5px;
+}
+.body-tabla{
+    background-color: rgba(255,255,255,0.5);
+}
+.body-tabla font{
+    color: black;
+    font-size: 15px;
+}
+#about{
+    width: 90%;
+    background-color: #D8B4A0;
+    padding: 10px;
+    color: white;
+    margin: 0px auto;
+}
+#about .ab {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#about h2{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 5px 5px 10px 0px rgb(0, 0, 0, 0.3);
+}
+.about-student{
+    float: left;
+    width: 45%;
+    background-color: #D77A61;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 15px;
+    box-shadow: 5px 5px 10px 0px rgb(0, 0, 0, 0.3);
+}
+.about-student h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px double rgb(90, 86, 86);
+    font-size: 25px;
+}
+.about-student h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.img-about{
+    width: 80%;
+    height: 80%;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.btnRpt{
+    padding: 15px;
+    border: 1px solid black;
+    width: 20%;
+    background-color: rgba(0,0,0,0.75);
+    color: white;
+}
+.btnRpt:hover{
+    background-color: rgba(255,255,255,0.75);
+    color: rgba(0,0,0,0.75);
+    transition: all 600ms;
+}
+/*Estilos del pie de pagina*/
+footer{
+    display: block;
+    width: 100%;
+    background-color: #FF8232;
+    padding: 10px;
+}
+.texto-footer{
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.contenedor{
+  width:50px;
+  height:50px;
+}
+.image{
+  object-fit: cover;
+  width:100%;
+  height:100%;
+}
+.ima{
+    height: 70%;
+}
+.color1{
+   background-color: #2469A0 !important;
+}
+.letra1{
+    color: white !important;
+}
+
+
+
+
